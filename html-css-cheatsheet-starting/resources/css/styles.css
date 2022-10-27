@@ -1,0 +1,9 @@
+*{
+    border: 1px solid blue;
+}
+
+.syntax{
+    font-style: italic;
+    font-weight: bold;
+    color: #FF5F5F;
+}
