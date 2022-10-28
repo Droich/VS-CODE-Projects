@@ -1,5 +1,6 @@
 *{
     border: 1px solid blue;
+    background-color: #E6CCA4;
 }
 
 .syntax{
@@ -8,6 +9,20 @@
     color: #FF5F5F;
 }
 
+header{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    
+}
+
+.title{
+    text-align: center;
+}
+
+h1, h2, h3{
+    color: #62463b;
+}
 
 /*Estilo de la tabla*/
 table {
