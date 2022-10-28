@@ -6,9 +6,12 @@
         <link href="./resources/css/styles.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+        <!--HEADER-->
         <header>
             <h1 class="title">HTML Table Cheatsheet</h1>
         </header>
+
+        <!--Menu de contenido-->
         <nav class="contenido">
             <h2>Content</h2>
             <ul class="subject">
@@ -28,7 +31,10 @@
                 <li>Example</li>
             </ul>
         </nav>
+
+        <!--Lo bueno-->
         <main>
+        <!--Seccion donde se explica que es una tabla de html-->
         <div id="table">
             <h1>What is a table in HTML</h1>
             <p>A table is a structured set of data made up of rows and columns (tabular data). 
@@ -36,8 +42,12 @@
                 connection between different types of data, for example a person and their age, or a 
                 day of the week, or the timetable for a local swimming pool.</p>
         </div>
+
+        <!--Aqui empiezan las tag-->
         <div id="tags">
             <h1>Table Tags</h1>
+
+            <!--Aqui esta la definicion y ejemplo de <tr>-->
             <div class="tag_tr">
                 <h2>&lt tr &gt Table Row Element</h2>
                 <p>The table row element, <span class="syntax">&lt tr &gt</span>, is used to add rows to a table before adding table data and
@@ -53,11 +63,26 @@
                 </code>
                 </pre>
             </div>
-            <div>
+
+            <!--Aqui esta la definicion y ejemplo de <td>-->
+            <div class="tag_td">
                 <h2 class="td">&lt td &gt Table Data Element</h2>
                 <p>The table data element, <span class="syntax">&lt td &gt</span>, can be nested inside a table
                     row element, <span class="syntax">&lt tr &gt</span>, to add a cell of data to a table.</p>
+                <h3>Code Example</h3>
+                <pre>
+                <code>
+                    &lttable&gt
+                        &lttr&gt
+                            &lttd&gtcell one data&lt/td&gt
+                            &lttd&gtcell two data &lt/td&gt
+                        &lt/tr&gt
+                    &lt/table&gt
+                </code>
+                </pre>
             </div>
+
+            <!--Aqui esta la definicion y ejemplo de thead-->
         </div>
         </main>
     </body>
