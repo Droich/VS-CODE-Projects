@@ -18,17 +18,17 @@
                 <li class="main"><a href="#table">What is a table in HTML?</a></li>
                 <li class="tag"><a href="#tags">Table Tags</a></li>
                 <ul>
-                    <li><span class="syntax">&lt tr &gt</span> Table Row Element</li>
-                    <li><span class="syntax">&lt td &gt</span> Table Data Element</li>
-                    <li><span class="syntax">&lt thead &gt</span> Table Head Element</li>
-                    <li><span class="syntax">rowspan</span> Attribute</li>
-                    <li><span class="syntax">&lt tbody &gt</span> Table Body Element</li>
-                    <li><span class="syntax">&lt th &gt</span> Table Heading Element</li>
-                    <li><span class="syntax">colspan</span> Attribute</li>
-                    <li><span class="syntax">&lt tfoot &gt</span> Table Footer Element</li>
-                    <li><span class="syntax">&lt table &gt</span> Table</li>
+                    <li><a href="#tag_tr"><span class="syntax">&lt tr &gt</span> Table Row Element</a></li>
+                    <li><a href="#tag_td"><span class="syntax">&lt td &gt</span> Table Data Element</a></li>
+                    <li><a href="#tag_thead"><span class="syntax">&lt thead &gt</span> Table Head Element</a></li>
+                    <li><a href="#tag_rowspan"><span class="syntax">rowspan</span> Attribute</a></li>
+                    <li><a href="#tag_tdoby"><span class="syntax">&lt tbody &gt</span> Table Body Element</a></li>
+                    <li><a href="#tag_th"><span class="syntax">&lt th &gt</span> Table Heading Element</a></li>
+                    <li><a href="#tag_colspan"><span class="syntax">colspan</span> Attribute</a></li>
+                    <li><a href="#tag_tfoot"><span class="syntax">&lt tfoot &gt</span> Table Footer Element</a></li>
+                    <li><a href="#tag_table"><span class="syntax">&lt table &gt</span> Table</a></li>
                 </ul>
-                <li>Example</li>
+                <li><a href="#example">Example</a></li>
             </ul>
         </nav>
 
@@ -48,8 +48,8 @@
             <h1>Table Tags</h1>
 
             <!--Aqui esta la definicion y ejemplo de <tr>-->
-            <div class="tag_tr">
-                <h2>&lttr&gt Table Row Element</h2>
+            <div id="tag_tr">
+                <h2 class="tr">&lttr&gt Table Row Element</h2>
                 <p>The table row element, <span class="syntax">&lttr&gt</span>, is used to add rows to a table before adding table data and
                    table headings.</p>
                 <h3>Code Example</h3>
@@ -57,7 +57,7 @@
             </div>
 
             <!--Aqui esta la definicion y ejemplo de <td>-->
-            <div class="tag_td">
+            <div id="tag_td">
                 <h2 class="td">&lttd&gt Table Data Element</h2>
                 <p>The table data element, <span class="syntax">&lttd&gt</span>, can be nested inside a table
                     row element, <span class="syntax">&lttr&gt</span>, to add a cell of data to a table.</p>
@@ -66,7 +66,7 @@
             </div>
 
             <!--Aqui esta la definicion y ejemplo de <thead>-->
-            <div class="tag_thead">
+            <div id="tag_thead">
                 <h2 class="thead">&lttd&gt Table Head Element</h2>
                 <p>The table head element,<span class="syntax">&ltthead&gt</span>, defines the headings
                 of the columns encapsulated in table rows.</p>
@@ -75,7 +75,7 @@
             </div>
 
             <!--Aqui esta la definicion y ejemplo de rowspan-->
-            <div class="tag_rowspan">
+            <div id="tag_rowspan">
                 <h2 class="rowspan">rowspan Attribute</h2>
                 <p>Similar to colspan, the rowspan attribute on a table header or table data element
                     indicates how many rows that particular cell should span withing the table.<br>
@@ -87,7 +87,7 @@
             </div>
 
             <!--Aqui esta la definicion y ejemplo de <tbody>-->
-            <div class="tag_tbody">
+            <div id="tag_tbody">
                 <h2 class="tbody">&lttbody&gt Table Body Element</h2>
                 <p>The table body element,<span class="syntax">&lttbody&gt</span>, is a semantic element
                     that will contain all table data other than table heading and table footer content. If 
@@ -102,7 +102,7 @@
             </div>
 
             <!--Aqui esta la definicion y ejemplo de <th>-->
-            <div class="tag_th">
+            <div id="tag_th">
                 <h2 class="th">&ltth&gt Table Heading Element</h2>
                 <p>
                     The table heading element, <span class="syntax">&ltth&gt</span>, is used to add titles to
@@ -113,7 +113,7 @@
             </div>
 
             <!--Aqui esta la definicion y ejemplo de colspan-->
-            <div class="tag_colspan">
+            <div id="tag_colspan">
                 <h2 class="colspan">colspan Attribute</h2>
                 <p>
                     The colspan attribute on a table header <span class="syntax">&ltth&gt</span> or table data
@@ -126,7 +126,7 @@
             </div>
 
             <!--Aqui esta la definicion y ejemplo de <tfoot>-->
-            <div class="tag_tfoot">
+            <div id="tag_tfoot">
                 <h2 class="tfoot">&lttfoot&gt Table Footer Element</h2>
                 <p>
                     The table footer element, <span class="syntax">&lttfoot&gt</span>, uses table rows to give
@@ -137,7 +137,7 @@
             </div>
 
             <!--Aqui esta la definicion y ejemplo de <table>-->
-            <div class="tag_table">
+            <div id="tag_table">
                 <h2 class="table">&lttable&gt Table Element</h2>
                 <p>
                     In HTML, the <span class="syntax">&lttable&gt</span> element has content that is used to 
@@ -145,6 +145,50 @@
                 </p>
                 <h3>Code Example</h3>
                 <img src="./resources/images/table.png">
+            </div>
+
+            <!--Aqui va el ejemplo-->
+            <div id="example">
+                <h2 class="FTable">Example Of Final Result</h2>
+                <table>
+                    <caption>A summary of top sites with both paid and free course</caption>
+                    <thead>
+                      <tr>
+                        <th class="primary" scope="col">Websites</th>
+                        <th scope="col">Certification</th>
+                        <th scope="col">Tuition</th>
+                        <th scope="col">Top Courses</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Freecode Camp</th>
+                        <td>Yes</td>
+                        <td>Free</td>
+                        <td>Web Development and Design</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Udemy</th>
+                        <td>Yes</td>
+                        <td>Paid</td>
+                        <td>Python and Machine Learning</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Coursera</th>
+                        <td>Yes</td>
+                        <td>Free and Paid</td>
+                        <td>IoT and AI</td>
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <th>Total Courses</th>
+                        <td colspan="4"><i>What are you waiting for? Get Started now for free</i></td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                  <h3>Code</h3>
+                  <img src="./resources/images/example.png">
             </div>
         </div>
         </main>
