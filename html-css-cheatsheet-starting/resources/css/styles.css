@@ -1,6 +1,6 @@
 *{
     border: 1px solid blue;
-    background-color: #E6CCA4;
+    background-color: #E9F1FA;
 }
 
 .syntax{
@@ -14,11 +14,22 @@
 }
 
 h1, h2, h3{
-    color: #62463b;
+    color: #FFFFFF;
+    background-color: #00ABE4;
 }
 
-ul{
+ul, li{
     list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+a:hover{
+    color:teal ;
 }
 
 /*Estilo de imagenes*/
@@ -85,7 +96,7 @@ table {
     padding: 20px;
   }
   th {
-    background: brown;
+    background: #00ABE4;
     color: white;
     border-radius: 0;
     position: sticky;
@@ -98,7 +109,7 @@ table {
   
   tfoot > tr  {
     background: black;
-    color: white;
+    color: black;
   }
   tbody > tr:hover {
     background-color: #ffc107;
@@ -107,4 +118,10 @@ table {
   footer{
      text-align: center;
      font-weight: bold;
+     background-color: #00ABE4;
+  }
+
+  footer p {
+    background-color: #00ABE4;
+     color: #E9F1FA;
   }
